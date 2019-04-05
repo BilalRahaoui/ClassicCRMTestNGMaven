@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End2End">
+	<parameter name="URL"
+		value="https://classic.crmpro.com/index.html"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.classiccrm.testcases.HomePageTest" />
+			<class name="com.classiccrm.testcases.LoginPageTest" />
+			<class name="com.classiccrm.testcases.ContactPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- End2End -->

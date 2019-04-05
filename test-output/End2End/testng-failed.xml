@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [End2End]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="URL" value="https://classic.crmpro.com/index.html"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.classiccrm.testcases.LoginPageTest">
+        <methods>
+          <include name="drop"/>
+          <include name="lanchBrowser"/>
+          <include name="testLogin" invocation-numbers="1 2 3 5 6"/>
+        </methods>
+      </class> <!-- com.classiccrm.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [End2End] -->

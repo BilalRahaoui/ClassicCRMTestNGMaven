@@ -1,0 +1,5 @@
+com\classiccrm\testdata\Data.class
+com\classiccrm\pages\ContactPage.class
+com\classiccrm\util\WebListener.class
+com\classiccrm\pages\HomePage.class
+com\classiccrm\base\TestBase.class
