@@ -17,18 +17,29 @@ import com.classiccrm.testdata.Data;
 
 
 public class ContactPageTest extends TestBase {
-	public ContactPageTest() {
+	
+	//constructor from super class
+	public ContactPageTest() throws Exception {
 		super();
+		// TODO Auto-generated constructor stub
 	}
+
+	//Parameters from testng.xml
 	@Parameters({"URL","browser"})
+	
+	//initialize and lunch test on selected browser
 	@BeforeMethod
 	public void lanchBrowser(String URL,String browser) {
 		setUp(URL, browser);
 	}
+	
+	//terminate test "to do after test"
 	@AfterMethod
 	public void drop() {
 		dropAll();
 	}
+	
+	//testing if adding new contact feature is working
 	@Test(dataProvider = "addContactData")
 	public void testAddContact(String First_Name,String Last_Name,String Company,String Department) {
 		WebElement loginText = driver.findElement(By.xpath("//input[@placeholder='Username']"));
@@ -59,6 +70,8 @@ public class ContactPageTest extends TestBase {
 		boolean editIsVisible = driver.findElement(By.xpath("//input[@value='Edit']")).isDisplayed();
 		soft.assertTrue(editIsVisible,"Adding new contact failed!");
 	}
+	
+	//Read data for add new contact test from Data.java class
 	@DataProvider
 	public Object[][] addContactData() throws Exception{
 		Object data [][] = Data.contactData();

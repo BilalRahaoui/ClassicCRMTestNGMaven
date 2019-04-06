@@ -7,8 +7,7 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.classiccrm.testcases.HomePageTest" />
-			<class name="com.classiccrm.testcases.LoginPageTest" />
-			<class name="com.classiccrm.testcases.ContactPageTest" />
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- End2End -->

@@ -7,9 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 import com.classiccrm.base.TestBase;
 
 public class ContactPage extends TestBase {
-	public ContactPage() {
+
+	public ContactPage() throws Exception {
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(xpath="//a[@title='Contacts']")
 	WebElement contact;
 	@FindBy(xpath="//a[@title='New Contact']")
