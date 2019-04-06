@@ -5,9 +5,23 @@
   <parameter name="URL" value="https://classic.crmpro.com/index.html"/>
   <test name="Test(failed)">
     <classes>
+      <class name="com.classiccrm.testcases.LoginPageTest">
+        <methods>
+          <include name="drop"/>
+          <include name="lanchBrowser"/>
+          <include name="accountLabelTest"/>
+        </methods>
+      </class> <!-- com.classiccrm.testcases.LoginPageTest -->
+      <class name="com.classiccrm.testcases.ContactPageTest">
+        <methods>
+          <include name="addNewContactTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="lanchBrowser"/>
+          <include name="drop"/>
+        </methods>
+      </class> <!-- com.classiccrm.testcases.ContactPageTest -->
       <class name="com.classiccrm.testcases.HomePageTest">
         <methods>
-          <include name="invalidLoginTest"/>
+          <include name="invalidLoginTest" invocation-numbers="0 1 2"/>
           <include name="drop"/>
           <include name="lanchBrowser"/>
         </methods>

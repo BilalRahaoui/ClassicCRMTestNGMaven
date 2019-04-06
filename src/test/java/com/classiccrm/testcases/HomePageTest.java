@@ -3,18 +3,14 @@ package com.classiccrm.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.classiccrm.base.TestBase;
 import com.classiccrm.pages.HomePage;
-import com.classiccrm.pages.LoginPage;
-import com.classiccrm.testdata.Data;
 public class HomePageTest extends TestBase {
 	
-	//initialize an object from HomePage class
+	//initialize an object from HomePage-LoginPage classes
 	public HomePage homePage ;
-	public LoginPage loginPage;
 	
 	//constructor from super class
 	public HomePageTest() throws Exception {
@@ -30,7 +26,6 @@ public class HomePageTest extends TestBase {
 	public void lanchBrowser(String URL,String browser) throws Exception {
 		setUp(URL, browser);
 		homePage = new HomePage();
-		loginPage = new LoginPage();
 	}
 	
 	//terminate test "to do after test"
@@ -62,22 +57,10 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(logoStatus, "TestLogo failed because logo is not displayed");
 	}
 	
-	//test login feature "with valid user& valid password 
+	//test click on pricing textLink
 	@Test(priority = 4)
-	public void validLoginTest() throws Exception {
-		homePage.performValidLogin();
-		loginPage.checkLoginPerformed();	
+	public void pricingTest()  {
+		homePage.clickOnPricing();
 	}
 	
-	//test login feature "with invalid user // invalid password 
-	@Test(priority = 5, dataProvider = "inalidLogin")
-	public void invalidLoginTest(String username,String password) {
-		homePage.performInvalidLogin(username, password);
-	}
-	
-	@DataProvider
-	public Object[][] inalidLogin() throws Exception {
-		Object data [][] = Data.loginTestData();
-		return data;
-	}
 }

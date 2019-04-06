@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,32 @@
                     <div class="method-list-content passed suite-End2End">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.HomePageTest" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.LoginPageTest" hash-for-method="accountLabelTest">accountLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.LoginPageTest" hash-for-method="invalidLoginTest(rahaouitesting, incorrect_password)">invalidLoginTest(rahaouitesting, incorrect_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.LoginPageTest" hash-for-method="invalidLoginTest(Incorrectuser, Bmn123456)">invalidLoginTest(Incorrectuser, Bmn123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.LoginPageTest" hash-for-method="invalidLoginTest(Incorrectuser, incorrect_password)">invalidLoginTest(Incorrectuser, incorrect_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-End2End" title="com.classiccrm.testcases.LoginPageTest" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-End2End -->
@@ -119,9 +144,47 @@
           <div class="suite-End2End-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.classiccrm.testcases.HomePageTest</span>
+              <span class="class-name">com.classiccrm.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountLabelTest">
+                  </a> <!-- accountLabelTest -->
+                  <span class="method-name">accountLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest(rahaouitesting, incorrect_password)">
+                  </a> <!-- invalidLoginTest(rahaouitesting, incorrect_password) -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <span class="parameters">(rahaouitesting, incorrect_password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest(Incorrectuser, Bmn123456)">
+                  </a> <!-- invalidLoginTest(Incorrectuser, Bmn123456) -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <span class="parameters">(Incorrectuser, Bmn123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest(Incorrectuser, incorrect_password)">
+                  </a> <!-- invalidLoginTest(Incorrectuser, incorrect_password) -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <span class="parameters">(Incorrectuser, incorrect_password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="validLoginTest">
@@ -145,7 +208,7 @@
   &lt;parameter name=&quot;URL&quot; value=&quot;https://classic.crmpro.com/index.html&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.classiccrm.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.classiccrm.testcases.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- End2End --&gt;
@@ -185,16 +248,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLoginTest')
-data.setCell(0, 2, 'com.classiccrm.testcases.HomePageTest')
-data.setCell(0, 3, 4363);
+data.setCell(0, 2, 'com.classiccrm.testcases.LoginPageTest')
+data.setCell(0, 3, 5137);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.classiccrm.testcases.LoginPageTest')
+data.setCell(1, 3, 4527);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'accountLabelTest')
+data.setCell(2, 2, 'com.classiccrm.testcases.LoginPageTest')
+data.setCell(2, 3, 4296);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidLoginTest')
+data.setCell(3, 2, 'com.classiccrm.testcases.LoginPageTest')
+data.setCell(3, 3, 1815);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidLoginTest')
+data.setCell(4, 2, 'com.classiccrm.testcases.LoginPageTest')
+data.setCell(4, 3, 1661);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'invalidLoginTest')
+data.setCell(5, 2, 'com.classiccrm.testcases.LoginPageTest')
+data.setCell(5, 3, 1401);
 window.suiteTableData['End2End']= { tableData: data, tableDiv: 'times-div-End2End'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-End2End">
               </div> <!-- times-div-End2End -->
             </div> <!-- times-div -->
@@ -220,18 +303,78 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.classiccrm.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.classiccrm.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">lanchBrowser(https://classic.crmpro.com/index.html, firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validLoginTest</span>
-                <span class="method-start">13448 ms</span>
+                <span class="method-start">13155 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">drop</span>
-                <span class="method-start">17812 ms</span>
+                <span class="method-start">18293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanchBrowser(https://classic.crmpro.com/index.html, firefox)</span>
+                <span class="method-start">20683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(Incorrectuser, Bmn123456)</span>
+                <span class="method-start">33482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">drop</span>
+                <span class="method-start">35145 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanchBrowser(https://classic.crmpro.com/index.html, firefox)</span>
+                <span class="method-start">37128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(rahaouitesting, incorrect_password)</span>
+                <span class="method-start">50275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">drop</span>
+                <span class="method-start">51677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanchBrowser(https://classic.crmpro.com/index.html, firefox)</span>
+                <span class="method-start">53830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(Incorrectuser, incorrect_password)</span>
+                <span class="method-start">66915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">drop</span>
+                <span class="method-start">68731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanchBrowser(https://classic.crmpro.com/index.html, firefox)</span>
+                <span class="method-start">71038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">84049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">drop</span>
+                <span class="method-start">88577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanchBrowser(https://classic.crmpro.com/index.html, firefox)</span>
+                <span class="method-start">90425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">accountLabelTest</span>
+                <span class="method-start">102484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">drop</span>
+                <span class="method-start">106781 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

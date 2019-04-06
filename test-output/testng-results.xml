@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="End2End" duration-ms="19631" started-at="2019-04-06T13:54:35Z" finished-at="2019-04-06T13:54:55Z">
+  <suite name="End2End" duration-ms="108753" started-at="2019-04-06T19:53:04Z" finished-at="2019-04-06T19:54:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19631" started-at="2019-04-06T13:54:35Z" finished-at="2019-04-06T13:54:55Z">
-      <class name="com.classiccrm.testcases.HomePageTest">
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13448" started-at="2019-04-06T15:54:35Z" finished-at="2019-04-06T15:54:49Z">
+    <test name="Test" duration-ms="108753" started-at="2019-04-06T19:53:04Z" finished-at="2019-04-06T19:54:53Z">
+      <class name="com.classiccrm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13155" started-at="2019-04-06T21:53:04Z" finished-at="2019-04-06T21:53:17Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,171 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.classiccrm.testcases.HomePageTest@627551fb]" name="validLoginTest" duration-ms="4363" started-at="2019-04-06T15:54:49Z" finished-at="2019-04-06T15:54:53Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="validLoginTest" duration-ms="5137" started-at="2019-04-06T21:53:17Z" finished-at="2019-04-06T21:53:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.HomePageTest@627551fb]" name="drop" is-config="true" duration-ms="1807" started-at="2019-04-06T15:54:53Z" finished-at="2019-04-06T15:54:55Z">
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1890" started-at="2019-04-06T21:53:22Z" finished-at="2019-04-06T21:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-      </class> <!-- com.classiccrm.testcases.HomePageTest -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="12799" started-at="2019-04-06T21:53:25Z" finished-at="2019-04-06T21:53:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="invalidLoginTest" duration-ms="1661" started-at="2019-04-06T21:53:38Z" data-provider="invalidLogin" finished-at="2019-04-06T21:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Incorrectuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bmn123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1983" started-at="2019-04-06T21:53:39Z" finished-at="2019-04-06T21:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13147" started-at="2019-04-06T21:53:41Z" finished-at="2019-04-06T21:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="invalidLoginTest" duration-ms="1401" started-at="2019-04-06T21:53:54Z" data-provider="invalidLogin" finished-at="2019-04-06T21:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahaouitesting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrect_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="2153" started-at="2019-04-06T21:53:56Z" finished-at="2019-04-06T21:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13085" started-at="2019-04-06T21:53:58Z" finished-at="2019-04-06T21:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="invalidLoginTest" duration-ms="1815" started-at="2019-04-06T21:54:11Z" data-provider="invalidLogin" finished-at="2019-04-06T21:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Incorrectuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrect_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="2306" started-at="2019-04-06T21:54:13Z" finished-at="2019-04-06T21:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13011" started-at="2019-04-06T21:54:15Z" finished-at="2019-04-06T21:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="loginTest" duration-ms="4527" started-at="2019-04-06T21:54:28Z" finished-at="2019-04-06T21:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1848" started-at="2019-04-06T21:54:33Z" finished-at="2019-04-06T21:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="12059" started-at="2019-04-06T21:54:34Z" finished-at="2019-04-06T21:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="accountLabelTest()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="accountLabelTest" duration-ms="4296" started-at="2019-04-06T21:54:47Z" finished-at="2019-04-06T21:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLabelTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1960" started-at="2019-04-06T21:54:51Z" finished-at="2019-04-06T21:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+      </class> <!-- com.classiccrm.testcases.LoginPageTest -->
     </test> <!-- Test -->
   </suite> <!-- End2End -->
 </testng-results>

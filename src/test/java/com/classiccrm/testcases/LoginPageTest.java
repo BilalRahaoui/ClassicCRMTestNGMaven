@@ -1,18 +1,15 @@
 package com.classiccrm.testcases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import com.classiccrm.base.TestBase;
 import com.classiccrm.pages.HomePage;
 import com.classiccrm.pages.LoginPage;
 import com.classiccrm.testdata.Data;
+
 
 public class LoginPageTest extends TestBase{
 	
@@ -43,31 +40,37 @@ public class LoginPageTest extends TestBase{
 		dropAll();
 	}
 	
-	//test login feature "with valid user& valid password 
-	@Test(priority = 5,dataProvider = "testLoginData")
-	public void loginTest(String username,String password) {
-		SoftAssert soft = new SoftAssert();
-		WebElement loginText = driver.findElement(By.xpath("//input[@placeholder='Username']"));
-		WebElement passwordText = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-		WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
-		loginText.sendKeys(username);
-		passwordText.sendKeys(password);
-		loginButton.click();
-		driver.switchTo().frame("mainpanel");
-		WebElement logoutElement = driver.findElement(By.xpath("//a[contains(text(),'Logout')]"));
-		boolean logout = logoutElement.isDisplayed();
-		WebElement userElement = driver.findElement(By.xpath("//td[contains(text(),'User:')]"));
-		boolean user = userElement.isDisplayed();
-		soft.assertTrue(logout, "Login failed!");
-		soft.assertTrue(user, "Login failed!");
-		soft.assertAll();
+	//test login feature "with valid user & valid password 
+	@Test(priority = 4)
+	public void validLoginTest() throws Exception {
+		homePage.performValidLogin();
+		loginPage.checkLoginPerformed();	
 	}
 	
-	//Read data for add new contact test from Data.java class
+	//test login feature "with invalid user // invalid password 
+	@Test(priority = 5, dataProvider = "invalidLogin")
+	public void invalidLoginTest(String username,String password) {
+		homePage.performInvalidLogin(username, password);
+	}
+
+	@Test(priority = 6)
+	public void loginTest() throws Exception {
+		homePage.performValidLogin();
+		loginPage.checkLoginPerformed();
+	}
+	@Test(priority = 7)
+	public void accountLabelTest() throws Exception {
+		homePage.performValidLogin();
+		loginPage.checkAccountLabel();
+			
+	}
+	
+	//Data provider from Data.java class
 	@DataProvider
-	public Object[][] testLoginData() throws Exception{
-		Object data [][] = Data.loginTestData();
+	public Object[][] invalidLogin() throws Exception {
+		Object data [][] = Data.invalidLoginTestData();
 		return data;
 	}
+	
 	
 }

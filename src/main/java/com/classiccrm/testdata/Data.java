@@ -8,8 +8,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Data {
 
-	//Read data for add new contact test from src/main/resources/DataProvider/invalid_login_data_test
-	public static Object[][] loginTestData() throws Exception {
+	//Read data for invalid login test from src/main/resources/DataProvider/invalid_login_data_test.xlsx
+	public static Object[][] invalidLoginTestData() throws Exception {
 		//get absolute path for invalid_login_data_test.xlsx
 		String loginDataPath = new File("src/main/resources/DataProvider/invalid_login_data_test.xlsx").getAbsolutePath();
 		File file = new File(loginDataPath);

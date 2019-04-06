@@ -1,23 +1,20 @@
 package com.classiccrm.testcases;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import com.classiccrm.base.TestBase;
+import com.classiccrm.pages.ContactPage;
+import com.classiccrm.pages.HomePage;
+import com.classiccrm.pages.LoginPage;
 import com.classiccrm.testdata.Data;
 
-
 public class ContactPageTest extends TestBase {
-	
+	public HomePage homePage;
+	public LoginPage loginPage;
+	public ContactPage contactPage;
 	//constructor from super class
 	public ContactPageTest() throws Exception {
 		super();
@@ -29,8 +26,11 @@ public class ContactPageTest extends TestBase {
 	
 	//initialize and lunch test on selected browser
 	@BeforeMethod
-	public void lanchBrowser(String URL,String browser) {
+	public void lanchBrowser(String URL,String browser) throws Exception {
 		setUp(URL, browser);
+		homePage = new HomePage();
+		loginPage = new LoginPage();
+		contactPage = new ContactPage();
 	}
 	
 	//terminate test "to do after test"
@@ -40,35 +40,12 @@ public class ContactPageTest extends TestBase {
 	}
 	
 	//testing if adding new contact feature is working
-	@Test(dataProvider = "addContactData")
-	public void testAddContact(String First_Name,String Last_Name,String Company,String Department) {
-		WebElement loginText = driver.findElement(By.xpath("//input[@placeholder='Username']"));
-		WebElement passwordText = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-		WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
-		loginText.sendKeys("rahaouitesting");
-		passwordText.sendKeys("Bmn123456");
-		loginButton.click();
-		driver.switchTo().frame("mainpanel");
-		Actions action = new Actions(driver);
-		WebElement contact = driver.findElement(By.xpath("//a[@title='Contacts']"));
-		WebElement newContact = driver.findElement(By.xpath("//a[@title='New Contact']"));
-		action.moveToElement(contact).build().perform();
-		action.moveToElement(newContact).build().perform();
-		action.click(newContact).build().perform();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		WebElement fnameTextBox = driver.findElement(By.id("first_name"));
-		fnameTextBox.sendKeys(First_Name);
-		WebElement lnameTextBox = driver.findElement(By.id("surname"));
-		lnameTextBox.sendKeys(Last_Name);
-		WebElement companyTextBox = driver.findElement(By.name("client_lookup"));
-		companyTextBox.sendKeys(Company);
-		WebElement departmentTextBox = driver.findElement(By.id("department"));
-		departmentTextBox.sendKeys(Department);
-		WebElement saveButton = driver.findElement(By.xpath("//input[@value='Save']"));
-		action.moveToElement(saveButton).click().build().perform();
-		SoftAssert soft = new SoftAssert();
-		boolean editIsVisible = driver.findElement(By.xpath("//input[@value='Edit']")).isDisplayed();
-		soft.assertTrue(editIsVisible,"Adding new contact failed!");
+	@Test(priority = 7,dataProvider = "addContactData")
+	public void addNewContactTest(String First_Name,String Last_Name,String Company,String Department) throws Exception {
+		homePage.performValidLogin();
+		loginPage.clickOnContact();
+		contactPage.sendContactData(First_Name, Last_Name, Company, Department);
+		contactPage.checkSendContactDataPass();
 	}
 	
 	//Read data for add new contact test from Data.java class
