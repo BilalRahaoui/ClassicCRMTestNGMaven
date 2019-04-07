@@ -15,15 +15,20 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
 import com.classiccrm.util.WebListener;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 
 
 
 public class TestBase{
+	
 	public static WebDriver driver;
 	public static WebDriverWait wait;
 	public static EventFiringWebDriver e_driver;
 	public static WebListener weblistener;
 	public static Properties prop;
+	public static  ExtentReports extents;
+	public static ExtentTest logger;
 	public TestBase() throws Exception {
 		prop = new Properties();
 		String propertiesPath = "src/main/java/com/classiccrm/testdata/prop.properties";

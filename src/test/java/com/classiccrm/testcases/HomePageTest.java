@@ -3,6 +3,7 @@ package com.classiccrm.testcases;
 import java.lang.reflect.Method;
 
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 import com.classiccrm.base.TestBase;
 import com.classiccrm.pages.HomePage;
 import com.classiccrm.util.ReportingTools;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class HomePageTest extends TestBase {
 
@@ -27,14 +29,20 @@ public class HomePageTest extends TestBase {
 
 	//initialize and lunch test on selected browser
 	@BeforeMethod
-	public void lanchBrowser(String URL,String browser) throws Exception {
+	public void lanchBrowser(Method method,String URL,String browser) throws Exception {
+		logger = extents.startTest(method.getName());
 		setUp(URL, browser);
-		homePage = new HomePage();
-		
+		homePage = new HomePage();	
 	}
 	//terminate test "to do after test"
 	@AfterMethod
-	public void drop() throws Exception {
+	public void drop(ITestResult result) throws Exception {
+		if(result.getStatus() == ITestResult.SUCCESS)
+			logger.log(LogStatus.PASS, "Test success!");
+		else if (result.getStatus() == ITestResult.SKIP)
+			logger.log(LogStatus.SKIP, "Test skipped!");
+		else if (result.getStatus() == ITestResult.FAILURE)
+			logger.log(LogStatus.FAIL, "Test failed!");
 		dropAll();
 
 	}
@@ -42,6 +50,7 @@ public class HomePageTest extends TestBase {
 	//Check if url is as descripted
 	@Test(priority = 1)
 	public void urlTest(Method method) throws Exception {
+		//logger = extents.startTest(method.getName());
 		String actual = homePage.getURL();
 		String expected = "https://classic.crmpro.com/index.html";
 		Assert.assertEquals(actual, expected, "TestURL failed because url is not matching!");

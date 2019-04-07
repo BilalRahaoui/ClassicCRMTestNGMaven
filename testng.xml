@@ -3,9 +3,10 @@
 <suite name="End2End">
 	<parameter name="URL"
 		value="https://classic.crmpro.com/index.html"></parameter>
-	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
 	<test thread-count="5" name="Test">
 		<classes>
+			<class name="com.classiccrm.testcases.Config" />
 			<class name="com.classiccrm.testcases.HomePageTest" />
 			<class name="com.classiccrm.testcases.LoginPageTest" />
 			<class name="com.classiccrm.testcases.ContactPageTest" />

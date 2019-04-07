@@ -2,6 +2,7 @@ package com.classiccrm.testcases;
 
 import java.lang.reflect.Method;
 
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -13,6 +14,7 @@ import com.classiccrm.pages.HomePage;
 import com.classiccrm.pages.LoginPage;
 import com.classiccrm.testdata.Data;
 import com.classiccrm.util.ReportingTools;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class ContactPageTest extends TestBase {
 	public HomePage homePage;
@@ -29,7 +31,8 @@ public class ContactPageTest extends TestBase {
 	
 	//initialize and lunch test on selected browser
 	@BeforeMethod
-	public void lanchBrowser(String URL,String browser) throws Exception {
+	public void lanchBrowser(Method method,String URL,String browser) throws Exception {
+		logger = extents.startTest(method.getName());
 		setUp(URL, browser);
 		homePage = new HomePage();
 		loginPage = new LoginPage();
@@ -38,7 +41,13 @@ public class ContactPageTest extends TestBase {
 	
 	//terminate test "to do after test"
 	@AfterMethod
-	public void drop() {
+	public void drop(ITestResult result) {
+		if(result.getStatus() == ITestResult.SUCCESS)
+			logger.log(LogStatus.PASS, "Test success!");
+		else if (result.getStatus() == ITestResult.SKIP)
+			logger.log(LogStatus.SKIP, "Test skipped!");
+		else if (result.getStatus() == ITestResult.FAILURE)
+			logger.log(LogStatus.FAIL, "Test failed!");
 		dropAll();
 	}
 	

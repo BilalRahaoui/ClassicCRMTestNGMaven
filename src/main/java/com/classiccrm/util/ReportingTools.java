@@ -17,7 +17,7 @@ public class ReportingTools extends TestBase {
 	}
 
 	public static void takeSnapShot(String name) throws Exception {
-		String snapshotFilePath = new File("src/main/resources/Reporting/Snapshot").getAbsolutePath();
+		String snapshotFilePath = new File("TestReport/SnapShot").getAbsolutePath();
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcFile, new File(snapshotFilePath+"\\"+name+".png"));
 		System.out.println(snapshotFilePath+"\\"+name+".png");
