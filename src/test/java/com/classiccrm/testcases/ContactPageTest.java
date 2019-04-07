@@ -1,5 +1,7 @@
 package com.classiccrm.testcases;
 
+import java.lang.reflect.Method;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -10,6 +12,7 @@ import com.classiccrm.pages.ContactPage;
 import com.classiccrm.pages.HomePage;
 import com.classiccrm.pages.LoginPage;
 import com.classiccrm.testdata.Data;
+import com.classiccrm.util.ReportingTools;
 
 public class ContactPageTest extends TestBase {
 	public HomePage homePage;
@@ -41,11 +44,12 @@ public class ContactPageTest extends TestBase {
 	
 	//testing if adding new contact feature is working
 	@Test(priority = 7,dataProvider = "addContactData")
-	public void addNewContactTest(String First_Name,String Last_Name,String Company,String Department) throws Exception {
+	public void addNewContactTest(Method method,String First_Name,String Last_Name,String Company,String Department) throws Exception {
 		homePage.performValidLogin();
 		loginPage.clickOnContact();
 		contactPage.sendContactData(First_Name, Last_Name, Company, Department);
 		contactPage.checkSendContactDataPass();
+		ReportingTools.takeSnapShot(method.getName());
 	}
 	
 	//Read data for add new contact test from Data.java class

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="End2End" duration-ms="108753" started-at="2019-04-06T19:53:04Z" finished-at="2019-04-06T19:54:53Z">
+  <suite name="End2End" duration-ms="269557" started-at="2019-04-07T17:02:11Z" finished-at="2019-04-07T17:06:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="108753" started-at="2019-04-06T19:53:04Z" finished-at="2019-04-06T19:54:53Z">
-      <class name="com.classiccrm.testcases.LoginPageTest">
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13155" started-at="2019-04-06T21:53:04Z" finished-at="2019-04-06T21:53:17Z">
+    <test name="Test" duration-ms="269557" started-at="2019-04-07T17:02:11Z" finished-at="2019-04-07T17:06:41Z">
+      <class name="com.classiccrm.testcases.HomePageTest">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="lanchBrowser" is-config="true" duration-ms="13303" started-at="2019-04-07T19:02:11Z" finished-at="2019-04-07T19:02:24Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="validLoginTest" duration-ms="5137" started-at="2019-04-06T21:53:17Z" finished-at="2019-04-06T21:53:22Z">
+        <test-method status="PASS" signature="urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="urlTest" duration-ms="568" started-at="2019-04-07T19:02:24Z" finished-at="2019-04-07T19:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.HomePageTest.urlTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1890" started-at="2019-04-06T21:53:22Z" finished-at="2019-04-06T21:53:24Z">
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="drop" is-config="true" duration-ms="1859" started-at="2019-04-07T19:02:25Z" finished-at="2019-04-07T19:02:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="12799" started-at="2019-04-06T21:53:25Z" finished-at="2019-04-06T21:53:38Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="lanchBrowser" is-config="true" duration-ms="15084" started-at="2019-04-07T19:02:27Z" finished-at="2019-04-07T19:02:42Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +54,133 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="invalidLoginTest" duration-ms="1661" started-at="2019-04-06T21:53:38Z" data-provider="invalidLogin" finished-at="2019-04-06T21:53:39Z">
+        <test-method status="PASS" signature="titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="titleTest" duration-ms="509" started-at="2019-04-07T19:02:42Z" finished-at="2019-04-07T19:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.HomePageTest.titleTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="drop" is-config="true" duration-ms="2337" started-at="2019-04-07T19:02:42Z" finished-at="2019-04-07T19:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="lanchBrowser" is-config="true" duration-ms="11855" started-at="2019-04-07T19:02:45Z" finished-at="2019-04-07T19:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="logoTest" duration-ms="516" started-at="2019-04-07T19:02:56Z" finished-at="2019-04-07T19:02:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.HomePageTest.logoTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="drop" is-config="true" duration-ms="2296" started-at="2019-04-07T19:02:57Z" finished-at="2019-04-07T19:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="lanchBrowser" is-config="true" duration-ms="11536" started-at="2019-04-07T19:02:59Z" finished-at="2019-04-07T19:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="pricingTest" duration-ms="4115" started-at="2019-04-07T19:03:11Z" finished-at="2019-04-07T19:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.HomePageTest.pricingTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.HomePageTest@79be0360]" name="drop" is-config="true" duration-ms="2139" started-at="2019-04-07T19:03:15Z" finished-at="2019-04-07T19:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+      </class> <!-- com.classiccrm.testcases.HomePageTest -->
+      <class name="com.classiccrm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="lanchBrowser" is-config="true" duration-ms="11217" started-at="2019-04-07T19:03:17Z" finished-at="2019-04-07T19:03:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="validLoginTest" duration-ms="4904" started-at="2019-04-07T19:03:28Z" finished-at="2019-04-07T19:03:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.validLoginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="drop" is-config="true" duration-ms="1689" started-at="2019-04-07T19:03:33Z" finished-at="2019-04-07T19:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="lanchBrowser" is-config="true" duration-ms="11408" started-at="2019-04-07T19:03:35Z" finished-at="2019-04-07T19:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="invalidLoginTest" duration-ms="1804" started-at="2019-04-07T19:03:47Z" data-provider="invalidLogin" finished-at="2019-04-07T19:03:49Z">
           <params>
             <param index="0">
               <value>
@@ -59,15 +192,20 @@
                 <![CDATA[Bmn123456]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1983" started-at="2019-04-06T21:53:39Z" finished-at="2019-04-06T21:53:41Z">
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="drop" is-config="true" duration-ms="2239" started-at="2019-04-07T19:03:49Z" finished-at="2019-04-07T19:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13147" started-at="2019-04-06T21:53:41Z" finished-at="2019-04-06T21:53:54Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="lanchBrowser" is-config="true" duration-ms="11744" started-at="2019-04-07T19:03:51Z" finished-at="2019-04-07T19:04:03Z">
           <params>
             <param index="0">
               <value>
@@ -83,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="invalidLoginTest" duration-ms="1401" started-at="2019-04-06T21:53:54Z" data-provider="invalidLogin" finished-at="2019-04-06T21:53:56Z">
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="invalidLoginTest" duration-ms="1514" started-at="2019-04-07T19:04:03Z" data-provider="invalidLogin" finished-at="2019-04-07T19:04:04Z">
           <params>
             <param index="0">
               <value>
@@ -95,15 +233,20 @@
                 <![CDATA[incorrect_password]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="2153" started-at="2019-04-06T21:53:56Z" finished-at="2019-04-06T21:53:58Z">
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="drop" is-config="true" duration-ms="2219" started-at="2019-04-07T19:04:04Z" finished-at="2019-04-07T19:04:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13085" started-at="2019-04-06T21:53:58Z" finished-at="2019-04-06T21:54:11Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="lanchBrowser" is-config="true" duration-ms="11295" started-at="2019-04-07T19:04:06Z" finished-at="2019-04-07T19:04:18Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +262,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="invalidLoginTest" duration-ms="1815" started-at="2019-04-06T21:54:11Z" data-provider="invalidLogin" finished-at="2019-04-06T21:54:13Z">
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="invalidLoginTest" duration-ms="1829" started-at="2019-04-07T19:04:18Z" data-provider="invalidLogin" finished-at="2019-04-07T19:04:19Z">
           <params>
             <param index="0">
               <value>
@@ -131,15 +274,20 @@
                 <![CDATA[incorrect_password]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="2306" started-at="2019-04-06T21:54:13Z" finished-at="2019-04-06T21:54:15Z">
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="drop" is-config="true" duration-ms="1763" started-at="2019-04-07T19:04:19Z" finished-at="2019-04-07T19:04:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="13011" started-at="2019-04-06T21:54:15Z" finished-at="2019-04-06T21:54:28Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="lanchBrowser" is-config="true" duration-ms="10640" started-at="2019-04-07T19:04:21Z" finished-at="2019-04-07T19:04:32Z">
           <params>
             <param index="0">
               <value>
@@ -155,15 +303,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="loginTest" duration-ms="4527" started-at="2019-04-06T21:54:28Z" finished-at="2019-04-06T21:54:33Z">
+        <test-method status="PASS" signature="loginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="loginTest" duration-ms="3740" started-at="2019-04-07T19:04:32Z" finished-at="2019-04-07T19:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.loginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1848" started-at="2019-04-06T21:54:33Z" finished-at="2019-04-06T21:54:34Z">
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="drop" is-config="true" duration-ms="2069" started-at="2019-04-07T19:04:36Z" finished-at="2019-04-07T19:04:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="lanchBrowser" is-config="true" duration-ms="12059" started-at="2019-04-06T21:54:34Z" finished-at="2019-04-06T21:54:47Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="lanchBrowser" is-config="true" duration-ms="12458" started-at="2019-04-07T19:04:38Z" finished-at="2019-04-07T19:04:50Z">
           <params>
             <param index="0">
               <value>
@@ -179,15 +334,279 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="accountLabelTest()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="accountLabelTest" duration-ms="4296" started-at="2019-04-06T21:54:47Z" finished-at="2019-04-06T21:54:51Z">
+        <test-method status="PASS" signature="accountLabelTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="accountLabelTest" duration-ms="4412" started-at="2019-04-07T19:04:50Z" finished-at="2019-04-07T19:04:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.accountLabelTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountLabelTest -->
-        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@627551fb]" name="drop" is-config="true" duration-ms="1960" started-at="2019-04-06T21:54:51Z" finished-at="2019-04-06T21:54:53Z">
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.LoginPageTest@2758fe70]" name="drop" is-config="true" duration-ms="1920" started-at="2019-04-07T19:04:55Z" finished-at="2019-04-07T19:04:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
       </class> <!-- com.classiccrm.testcases.LoginPageTest -->
+      <class name="com.classiccrm.testcases.ContactPageTest">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="lanchBrowser" is-config="true" duration-ms="12004" started-at="2019-04-07T19:04:57Z" finished-at="2019-04-07T19:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="addNewContactTest" duration-ms="7321" started-at="2019-04-07T19:05:09Z" data-provider="addContactData" finished-at="2019-04-07T19:05:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.ContactPageTest.addNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jsandye]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bustard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Voonder]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Engineering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="drop" is-config="true" duration-ms="1875" started-at="2019-04-07T19:05:16Z" finished-at="2019-04-07T19:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="lanchBrowser" is-config="true" duration-ms="11773" started-at="2019-04-07T19:05:18Z" finished-at="2019-04-07T19:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="addNewContactTest" duration-ms="6988" started-at="2019-04-07T19:05:29Z" data-provider="addContactData" finished-at="2019-04-07T19:05:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.ContactPageTest.addNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Viola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Stenyng]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Divanoodle]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Accounting]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="drop" is-config="true" duration-ms="1782" started-at="2019-04-07T19:05:36Z" finished-at="2019-04-07T19:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="lanchBrowser" is-config="true" duration-ms="12200" started-at="2019-04-07T19:05:38Z" finished-at="2019-04-07T19:05:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="addNewContactTest" duration-ms="7761" started-at="2019-04-07T19:05:50Z" data-provider="addContactData" finished-at="2019-04-07T19:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.ContactPageTest.addNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alberto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Colleck]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vipe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Training]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="drop" is-config="true" duration-ms="1778" started-at="2019-04-07T19:05:58Z" finished-at="2019-04-07T19:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="lanchBrowser" is-config="true" duration-ms="12142" started-at="2019-04-07T19:06:00Z" finished-at="2019-04-07T19:06:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="addNewContactTest" duration-ms="7169" started-at="2019-04-07T19:06:12Z" data-provider="addContactData" finished-at="2019-04-07T19:06:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.ContactPageTest.addNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lion]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scaddon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jayo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Business Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="drop" is-config="true" duration-ms="1747" started-at="2019-04-07T19:06:19Z" finished-at="2019-04-07T19:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="lanchBrowser" is-config="true" duration-ms="10947" started-at="2019-04-07T19:06:21Z" finished-at="2019-04-07T19:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="addNewContactTest" duration-ms="6627" started-at="2019-04-07T19:06:32Z" data-provider="addContactData" finished-at="2019-04-07T19:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.ContactPageTest.addNewContactTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Barnaby]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Joselevitz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Feednation]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method status="PASS" signature="drop()[pri:0, instance:com.classiccrm.testcases.ContactPageTest@4973813a]" name="drop" is-config="true" duration-ms="1879" started-at="2019-04-07T19:06:39Z" finished-at="2019-04-07T19:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+      </class> <!-- com.classiccrm.testcases.ContactPageTest -->
     </test> <!-- Test -->
   </suite> <!-- End2End -->
 </testng-results>

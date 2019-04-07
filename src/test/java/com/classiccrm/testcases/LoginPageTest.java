@@ -1,5 +1,7 @@
 package com.classiccrm.testcases;
 
+import java.lang.reflect.Method;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -9,6 +11,7 @@ import com.classiccrm.base.TestBase;
 import com.classiccrm.pages.HomePage;
 import com.classiccrm.pages.LoginPage;
 import com.classiccrm.testdata.Data;
+import com.classiccrm.util.ReportingTools;
 
 
 public class LoginPageTest extends TestBase{
@@ -42,27 +45,30 @@ public class LoginPageTest extends TestBase{
 	
 	//test login feature "with valid user & valid password 
 	@Test(priority = 4)
-	public void validLoginTest() throws Exception {
+	public void validLoginTest(Method method) throws Exception {
 		homePage.performValidLogin();
-		loginPage.checkLoginPerformed();	
+		loginPage.checkLoginPerformed();
+		ReportingTools.takeSnapShot(method.getName());
 	}
 	
 	//test login feature "with invalid user // invalid password 
 	@Test(priority = 5, dataProvider = "invalidLogin")
-	public void invalidLoginTest(String username,String password) {
+	public void invalidLoginTest(String username,String password,Method method) throws Exception {
 		homePage.performInvalidLogin(username, password);
+		ReportingTools.takeSnapShot(method.getName());
 	}
 
 	@Test(priority = 6)
-	public void loginTest() throws Exception {
+	public void loginTest(Method method) throws Exception {
 		homePage.performValidLogin();
 		loginPage.checkLoginPerformed();
+		ReportingTools.takeSnapShot(method.getName());
 	}
 	@Test(priority = 7)
-	public void accountLabelTest() throws Exception {
+	public void accountLabelTest(Method method) throws Exception {
 		homePage.performValidLogin();
 		loginPage.checkAccountLabel();
-			
+		ReportingTools.takeSnapShot(method.getName());
 	}
 	
 	//Data provider from Data.java class
