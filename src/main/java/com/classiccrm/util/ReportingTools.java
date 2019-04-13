@@ -9,6 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import com.classiccrm.base.TestBase;
 
 
+
 public class ReportingTools extends TestBase {
 	
 	public ReportingTools() throws Exception {
@@ -17,10 +18,9 @@ public class ReportingTools extends TestBase {
 	}
 
 	public static void takeSnapShot(String name) throws Exception {
-		String snapshotFilePath = new File("TestReport/SnapShot").getAbsolutePath();
+		String snapshotFilePath = new File("TestReport").getAbsolutePath();
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcFile, new File(snapshotFilePath+"\\"+name+".png"));
-		System.out.println(snapshotFilePath+"\\"+name+".png");
 	}
-
+	
 }

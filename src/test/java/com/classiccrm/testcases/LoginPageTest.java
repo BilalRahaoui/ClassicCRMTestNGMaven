@@ -42,13 +42,16 @@ public class LoginPageTest extends TestBase{
 
 	//terminate test "to do after test"
 	@AfterMethod
-	public void drop(ITestResult result) {
+	public void drop(ITestResult result) throws Exception {
+		ReportingTools.takeSnapShot(result.getName());
 		if(result.getStatus() == ITestResult.SUCCESS)
 			logger.log(LogStatus.PASS, "Test success!");
 		else if (result.getStatus() == ITestResult.SKIP)
 			logger.log(LogStatus.SKIP, "Test skipped!");
-		else if (result.getStatus() == ITestResult.FAILURE)
-			logger.log(LogStatus.FAIL, "Test failed!");
+		else if (result.getStatus() == ITestResult.FAILURE) {
+			logger.log(LogStatus.FAIL, result.getThrowable());
+			logger.log(LogStatus.FAIL, "<a href='" +result.getName() + ".png" +"'><span class='label info'>Download Snapshot</a>");
+		}
 		dropAll();
 	}
 

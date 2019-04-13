@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="2" total="9" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="End2End" duration-ms="47606" started-at="2019-04-07T20:36:44Z" finished-at="2019-04-07T20:37:31Z">
+  <suite name="End2End" duration-ms="99364" started-at="2019-04-13T20:24:09Z" finished-at="2019-04-13T20:25:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47606" started-at="2019-04-07T20:36:44Z" finished-at="2019-04-07T20:37:31Z">
+    <test name="Test" duration-ms="99364" started-at="2019-04-13T20:24:09Z" finished-at="2019-04-13T20:25:48Z">
       <class name="com.classiccrm.testcases.HomePageTest">
-        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="lanchBrowser" is-config="true" duration-ms="10084" started-at="2019-04-07T22:36:44Z" finished-at="2019-04-07T22:36:54Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="lanchBrowser" is-config="true" duration-ms="11025" started-at="2019-04-13T22:24:09Z" finished-at="2019-04-13T22:24:20Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="urlTest" duration-ms="945" started-at="2019-04-07T22:36:54Z" finished-at="2019-04-07T22:36:55Z">
+        <test-method status="PASS" signature="urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="urlTest" duration-ms="908" started-at="2019-04-13T22:24:20Z" finished-at="2019-04-13T22:24:21Z">
           <params>
             <param index="0">
               <value>
@@ -39,18 +39,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="drop" is-config="true" duration-ms="660" started-at="2019-04-07T22:36:55Z" finished-at="2019-04-07T22:36:56Z">
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="drop" is-config="true" duration-ms="1564" started-at="2019-04-13T22:24:21Z" finished-at="2019-04-13T22:24:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=urlTest status=SUCCESS method=HomePageTest.urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a] output={null}]]]>
+                <![CDATA[[TestResult name=urlTest status=SUCCESS method=HomePageTest.urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="lanchBrowser" is-config="true" duration-ms="8923" started-at="2019-04-07T22:36:56Z" finished-at="2019-04-07T22:37:04Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="lanchBrowser" is-config="true" duration-ms="9564" started-at="2019-04-13T22:24:22Z" finished-at="2019-04-13T22:24:32Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="titleTest" duration-ms="920" started-at="2019-04-07T22:37:04Z" finished-at="2019-04-07T22:37:05Z">
+        <test-method status="PASS" signature="titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="titleTest" duration-ms="827" started-at="2019-04-13T22:24:32Z" finished-at="2019-04-13T22:24:32Z">
           <params>
             <param index="0">
               <value>
@@ -82,18 +82,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="drop" is-config="true" duration-ms="673" started-at="2019-04-07T22:37:05Z" finished-at="2019-04-07T22:37:06Z">
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="drop" is-config="true" duration-ms="1515" started-at="2019-04-13T22:24:32Z" finished-at="2019-04-13T22:24:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=titleTest status=SUCCESS method=HomePageTest.titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a] output={null}]]]>
+                <![CDATA[[TestResult name=titleTest status=SUCCESS method=HomePageTest.titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="lanchBrowser" is-config="true" duration-ms="9557" started-at="2019-04-07T22:37:06Z" finished-at="2019-04-07T22:37:16Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="lanchBrowser" is-config="true" duration-ms="10079" started-at="2019-04-13T22:24:34Z" finished-at="2019-04-13T22:24:44Z">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="logoTest" duration-ms="987" started-at="2019-04-07T22:37:16Z" finished-at="2019-04-07T22:37:17Z">
+        <test-method status="PASS" signature="logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="logoTest" duration-ms="819" started-at="2019-04-13T22:24:44Z" finished-at="2019-04-13T22:24:45Z">
           <params>
             <param index="0">
               <value>
@@ -125,18 +125,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="drop" is-config="true" duration-ms="617" started-at="2019-04-07T22:37:17Z" finished-at="2019-04-07T22:37:17Z">
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="drop" is-config="true" duration-ms="1687" started-at="2019-04-13T22:24:45Z" finished-at="2019-04-13T22:24:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logoTest status=SUCCESS method=HomePageTest.logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a] output={null}]]]>
+                <![CDATA[[TestResult name=logoTest status=SUCCESS method=HomePageTest.logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="lanchBrowser" is-config="true" duration-ms="9332" started-at="2019-04-07T22:37:17Z" finished-at="2019-04-07T22:37:27Z">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="lanchBrowser" is-config="true" duration-ms="9965" started-at="2019-04-13T22:24:47Z" finished-at="2019-04-13T22:24:57Z">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method status="PASS" signature="pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="pricingTest" duration-ms="4257" started-at="2019-04-07T22:37:27Z" finished-at="2019-04-07T22:37:31Z">
+        <test-method status="PASS" signature="pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="pricingTest" duration-ms="3882" started-at="2019-04-13T22:24:57Z" finished-at="2019-04-13T22:25:00Z">
           <params>
             <param index="0">
               <value>
@@ -168,11 +168,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a]" name="drop" is-config="true" duration-ms="636" started-at="2019-04-07T22:37:31Z" finished-at="2019-04-07T22:37:31Z">
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84]" name="drop" is-config="true" duration-ms="1284" started-at="2019-04-13T22:25:00Z" finished-at="2019-04-13T22:25:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=pricingTest status=SUCCESS method=HomePageTest.pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@551aa95a] output={null}]]]>
+                <![CDATA[[TestResult name=pricingTest status=SUCCESS method=HomePageTest.pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@67205a84] output={null}]]]>
               </value>
             </param>
           </params>
@@ -181,15 +181,250 @@
         </test-method> <!-- drop -->
       </class> <!-- com.classiccrm.testcases.HomePageTest -->
       <class name="com.classiccrm.testcases.Config">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.classiccrm.testcases.Config@22a67b4]" name="start" is-config="true" duration-ms="117" started-at="2019-04-07T22:36:44Z" finished-at="2019-04-07T22:36:44Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.classiccrm.testcases.Config@5a8806ef]" name="start" is-config="true" duration-ms="119" started-at="2019-04-13T22:24:08Z" finished-at="2019-04-13T22:24:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.classiccrm.testcases.Config@22a67b4]" name="end" is-config="true" duration-ms="267" started-at="2019-04-07T22:37:31Z" finished-at="2019-04-07T22:37:32Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.classiccrm.testcases.Config@5a8806ef]" name="end" is-config="true" duration-ms="258" started-at="2019-04-13T22:25:48Z" finished-at="2019-04-13T22:25:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.classiccrm.testcases.Config -->
+      <class name="com.classiccrm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="lanchBrowser" is-config="true" duration-ms="9831" started-at="2019-04-13T22:25:02Z" finished-at="2019-04-13T22:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.validLoginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="validLoginTest" duration-ms="3799" started-at="2019-04-13T22:25:12Z" finished-at="2019-04-13T22:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.validLoginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="drop" is-config="true" duration-ms="959" started-at="2019-04-13T22:25:15Z" finished-at="2019-04-13T22:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginPageTest.validLoginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="FAIL" signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="invalidLoginTest" duration-ms="0" started-at="2019-04-13T22:25:16Z" data-provider="invalidLogin" finished-at="2019-04-13T22:25:16Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:41)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:178)
+	at com.classiccrm.testdata.Data.invalidLoginTestData(Data.java:17)
+	at com.classiccrm.testcases.LoginPageTest.invalidLogin(LoginPageTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:630)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:229)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:39)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="lanchBrowser" is-config="true" duration-ms="10120" started-at="2019-04-13T22:25:16Z" finished-at="2019-04-13T22:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.loginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="loginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="loginTest" duration-ms="5512" started-at="2019-04-13T22:25:27Z" finished-at="2019-04-13T22:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.loginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="drop" is-config="true" duration-ms="968" started-at="2019-04-13T22:25:32Z" finished-at="2019-04-13T22:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method status="PASS" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="lanchBrowser" is-config="true" duration-ms="9751" started-at="2019-04-13T22:25:33Z" finished-at="2019-04-13T22:25:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.accountLabelTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://classic.crmpro.com/index.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method status="PASS" signature="accountLabelTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="accountLabelTest" duration-ms="4195" started-at="2019-04-13T22:25:43Z" finished-at="2019-04-13T22:25:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.classiccrm.testcases.LoginPageTest.accountLabelTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLabelTest -->
+        <test-method status="PASS" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4]" name="drop" is-config="true" duration-ms="963" started-at="2019-04-13T22:25:47Z" finished-at="2019-04-13T22:25:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountLabelTest status=SUCCESS method=LoginPageTest.accountLabelTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@22a67b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+      </class> <!-- com.classiccrm.testcases.LoginPageTest -->
+      <class name="com.classiccrm.testcases.ContactPageTest">
+        <test-method status="FAIL" signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@6c49835d]" name="addNewContactTest" duration-ms="0" started-at="2019-04-13T22:25:48Z" data-provider="addContactData" finished-at="2019-04-13T22:25:48Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:41)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:178)
+	at com.classiccrm.testdata.Data.contactData(Data.java:35)
+	at com.classiccrm.testcases.ContactPageTest.addContactData(ContactPageTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:630)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:229)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:39)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+      </class> <!-- com.classiccrm.testcases.ContactPageTest -->
     </test> <!-- Test -->
   </suite> <!-- End2End -->
 </testng-results>

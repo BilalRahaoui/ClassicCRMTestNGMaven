@@ -2,12 +2,12 @@
 <testng-results total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-07T20:41:10Z" name="End2End" finished-at="2019-04-07T20:44:46Z" duration-ms="216295">
+  <suite started-at="2019-04-13T20:36:02Z" name="End2End" finished-at="2019-04-13T20:39:57Z" duration-ms="235863">
     <groups>
     </groups>
-    <test started-at="2019-04-07T20:41:10Z" name="Test" finished-at="2019-04-07T20:44:46Z" duration-ms="216295">
+    <test started-at="2019-04-13T20:36:02Z" name="Test" finished-at="2019-04-13T20:39:57Z" duration-ms="235863">
       <class name="com.classiccrm.testcases.HomePageTest">
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:10Z" name="lanchBrowser" finished-at="2019-04-07T22:41:20Z" duration-ms="10544" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:02Z" name="lanchBrowser" finished-at="2019-04-13T22:36:12Z" duration-ms="10662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:20Z" name="urlTest" finished-at="2019-04-07T22:41:21Z" duration-ms="977" status="PASS">
+        <test-method signature="urlTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:12Z" name="urlTest" finished-at="2019-04-13T22:36:13Z" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:21Z" name="drop" finished-at="2019-04-07T22:41:22Z" duration-ms="681" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:13Z" name="drop" finished-at="2019-04-13T22:36:15Z" duration-ms="1573" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:22Z" name="lanchBrowser" finished-at="2019-04-07T22:41:31Z" duration-ms="9330" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:15Z" name="lanchBrowser" finished-at="2019-04-13T22:36:25Z" duration-ms="9991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:31Z" name="titleTest" finished-at="2019-04-07T22:41:32Z" duration-ms="951" status="PASS">
+        <test-method signature="titleTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:25Z" name="titleTest" finished-at="2019-04-13T22:36:26Z" duration-ms="791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:32Z" name="drop" finished-at="2019-04-07T22:41:33Z" duration-ms="663" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:26Z" name="drop" finished-at="2019-04-13T22:36:27Z" duration-ms="1497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:33Z" name="lanchBrowser" finished-at="2019-04-07T22:41:42Z" duration-ms="9486" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:27Z" name="lanchBrowser" finished-at="2019-04-13T22:36:37Z" duration-ms="9876" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:42Z" name="logoTest" finished-at="2019-04-07T22:41:43Z" duration-ms="1019" status="PASS">
+        <test-method signature="logoTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:37Z" name="logoTest" finished-at="2019-04-13T22:36:38Z" duration-ms="862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:43Z" name="drop" finished-at="2019-04-07T22:41:44Z" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:38Z" name="drop" finished-at="2019-04-13T22:36:39Z" duration-ms="1454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:44Z" name="lanchBrowser" finished-at="2019-04-07T22:41:53Z" duration-ms="9409" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:39Z" name="lanchBrowser" finished-at="2019-04-13T22:36:49Z" duration-ms="9508" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:53Z" name="pricingTest" finished-at="2019-04-07T22:41:57Z" duration-ms="3619" status="PASS">
+        <test-method signature="pricingTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:49Z" name="pricingTest" finished-at="2019-04-13T22:36:53Z" duration-ms="3762" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-07T22:41:57Z" name="drop" finished-at="2019-04-07T22:41:57Z" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.HomePageTest@44a7bfbc]" started-at="2019-04-13T22:36:53Z" name="drop" finished-at="2019-04-13T22:36:54Z" duration-ms="1277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,17 +181,17 @@
         </test-method> <!-- drop -->
       </class> <!-- com.classiccrm.testcases.HomePageTest -->
       <class name="com.classiccrm.testcases.Config">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.classiccrm.testcases.Config@4ef37659]" started-at="2019-04-07T22:41:09Z" name="start" finished-at="2019-04-07T22:41:10Z" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.classiccrm.testcases.Config@4ef37659]" started-at="2019-04-13T22:36:01Z" name="start" finished-at="2019-04-13T22:36:02Z" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.classiccrm.testcases.Config@4ef37659]" started-at="2019-04-07T22:44:46Z" name="end" finished-at="2019-04-07T22:44:46Z" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.classiccrm.testcases.Config@4ef37659]" started-at="2019-04-13T22:39:57Z" name="end" finished-at="2019-04-13T22:39:58Z" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.classiccrm.testcases.Config -->
       <class name="com.classiccrm.testcases.LoginPageTest">
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:41:57Z" name="lanchBrowser" finished-at="2019-04-07T22:42:07Z" duration-ms="9465" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:36:54Z" name="lanchBrowser" finished-at="2019-04-13T22:37:04Z" duration-ms="9813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:07Z" name="validLoginTest" finished-at="2019-04-07T22:42:11Z" duration-ms="4007" status="PASS">
+        <test-method signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:04Z" name="validLoginTest" finished-at="2019-04-13T22:37:09Z" duration-ms="5395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:11Z" name="drop" finished-at="2019-04-07T22:42:12Z" duration-ms="612" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:09Z" name="drop" finished-at="2019-04-13T22:37:10Z" duration-ms="1016" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,7 +234,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:12Z" name="lanchBrowser" finished-at="2019-04-07T22:42:21Z" duration-ms="9357" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:10Z" name="lanchBrowser" finished-at="2019-04-13T22:37:20Z" duration-ms="9913" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -255,7 +255,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:21Z" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2019-04-07T22:42:24Z" duration-ms="2348" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:20Z" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2019-04-13T22:37:22Z" duration-ms="1728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -276,7 +276,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:24Z" name="drop" finished-at="2019-04-07T22:42:24Z" duration-ms="612" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:22Z" name="drop" finished-at="2019-04-13T22:37:24Z" duration-ms="1546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,7 +287,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:24Z" name="lanchBrowser" finished-at="2019-04-07T22:42:34Z" duration-ms="9632" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:24Z" name="lanchBrowser" finished-at="2019-04-13T22:37:34Z" duration-ms="9833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:34Z" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2019-04-07T22:42:36Z" duration-ms="1741" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:34Z" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2019-04-13T22:37:36Z" duration-ms="2220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +329,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:36Z" name="drop" finished-at="2019-04-07T22:42:36Z" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:36Z" name="drop" finished-at="2019-04-13T22:37:37Z" duration-ms="1566" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,7 +340,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:36Z" name="lanchBrowser" finished-at="2019-04-07T22:42:46Z" duration-ms="9321" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:37Z" name="lanchBrowser" finished-at="2019-04-13T22:37:47Z" duration-ms="9996" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,7 +361,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:46Z" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2019-04-07T22:42:47Z" duration-ms="1757" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:47Z" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2019-04-13T22:37:50Z" duration-ms="2218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -382,7 +382,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:47Z" name="drop" finished-at="2019-04-07T22:42:48Z" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:50Z" name="drop" finished-at="2019-04-13T22:37:51Z" duration-ms="1702" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -393,7 +393,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:48Z" name="lanchBrowser" finished-at="2019-04-07T22:42:57Z" duration-ms="9233" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:37:51Z" name="lanchBrowser" finished-at="2019-04-13T22:38:01Z" duration-ms="9824" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -414,7 +414,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="loginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:42:57Z" name="loginTest" finished-at="2019-04-07T22:43:03Z" duration-ms="5517" status="PASS">
+        <test-method signature="loginTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:38:01Z" name="loginTest" finished-at="2019-04-13T22:38:06Z" duration-ms="4917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,7 +425,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:43:03Z" name="drop" finished-at="2019-04-07T22:43:03Z" duration-ms="603" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:38:06Z" name="drop" finished-at="2019-04-13T22:38:07Z" duration-ms="1021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,7 +436,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:43:03Z" name="lanchBrowser" finished-at="2019-04-07T22:43:13Z" duration-ms="9359" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:38:07Z" name="lanchBrowser" finished-at="2019-04-13T22:38:17Z" duration-ms="9640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -457,7 +457,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="accountLabelTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:43:13Z" name="accountLabelTest" finished-at="2019-04-07T22:43:17Z" duration-ms="4349" status="PASS">
+        <test-method signature="accountLabelTest(java.lang.reflect.Method)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:38:17Z" name="accountLabelTest" finished-at="2019-04-13T22:38:22Z" duration-ms="5158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -468,7 +468,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountLabelTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-07T22:43:17Z" name="drop" finished-at="2019-04-07T22:43:18Z" duration-ms="601" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.LoginPageTest@ba54932]" started-at="2019-04-13T22:38:22Z" name="drop" finished-at="2019-04-13T22:38:23Z" duration-ms="1010" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -481,7 +481,7 @@
         </test-method> <!-- drop -->
       </class> <!-- com.classiccrm.testcases.LoginPageTest -->
       <class name="com.classiccrm.testcases.ContactPageTest">
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:18Z" name="lanchBrowser" finished-at="2019-04-07T22:43:27Z" duration-ms="9327" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:38:23Z" name="lanchBrowser" finished-at="2019-04-13T22:38:33Z" duration-ms="10143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -502,7 +502,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:27Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-07T22:43:34Z" duration-ms="7143" status="PASS">
+        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:38:33Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-13T22:38:41Z" duration-ms="7761" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -533,7 +533,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewContactTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:34Z" name="drop" finished-at="2019-04-07T22:43:35Z" duration-ms="619" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:38:41Z" name="drop" finished-at="2019-04-13T22:38:42Z" duration-ms="1005" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -544,7 +544,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:35Z" name="lanchBrowser" finished-at="2019-04-07T22:43:44Z" duration-ms="9328" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:38:42Z" name="lanchBrowser" finished-at="2019-04-13T22:38:52Z" duration-ms="9911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -565,7 +565,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:44Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-07T22:43:53Z" duration-ms="8880" status="PASS">
+        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:38:52Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-13T22:39:00Z" duration-ms="8557" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -596,7 +596,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewContactTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:53Z" name="drop" finished-at="2019-04-07T22:43:54Z" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:00Z" name="drop" finished-at="2019-04-13T22:39:01Z" duration-ms="965" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -607,7 +607,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:43:54Z" name="lanchBrowser" finished-at="2019-04-07T22:44:03Z" duration-ms="9493" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:01Z" name="lanchBrowser" finished-at="2019-04-13T22:39:11Z" duration-ms="9762" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -628,7 +628,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:03Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-07T22:44:11Z" duration-ms="7440" status="PASS">
+        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:11Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-13T22:39:19Z" duration-ms="8117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -659,7 +659,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewContactTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:11Z" name="drop" finished-at="2019-04-07T22:44:11Z" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:19Z" name="drop" finished-at="2019-04-13T22:39:20Z" duration-ms="960" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -670,7 +670,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:11Z" name="lanchBrowser" finished-at="2019-04-07T22:44:21Z" duration-ms="9807" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:20Z" name="lanchBrowser" finished-at="2019-04-13T22:39:30Z" duration-ms="9904" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -691,7 +691,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:21Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-07T22:44:28Z" duration-ms="7252" status="PASS">
+        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:30Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-13T22:39:37Z" duration-ms="7418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -722,7 +722,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewContactTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:28Z" name="drop" finished-at="2019-04-07T22:44:29Z" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:37Z" name="drop" finished-at="2019-04-13T22:39:38Z" duration-ms="1017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -733,7 +733,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drop -->
-        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:29Z" name="lanchBrowser" finished-at="2019-04-07T22:44:38Z" duration-ms="9241" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:38Z" name="lanchBrowser" finished-at="2019-04-13T22:39:48Z" duration-ms="9898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -754,7 +754,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:38Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-07T22:44:45Z" duration-ms="7098" status="PASS">
+        <test-method signature="addNewContactTest(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:48Z" name="addNewContactTest" data-provider="addContactData" finished-at="2019-04-13T22:39:56Z" duration-ms="8179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -785,7 +785,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewContactTest -->
-        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-07T22:44:45Z" name="drop" finished-at="2019-04-07T22:44:46Z" duration-ms="605" status="PASS">
+        <test-method is-config="true" signature="drop(org.testng.ITestResult)[pri:0, instance:com.classiccrm.testcases.ContactPageTest@776b83cc]" started-at="2019-04-13T22:39:56Z" name="drop" finished-at="2019-04-13T22:39:57Z" duration-ms="970" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -18,8 +18,6 @@ import com.classiccrm.util.WebListener;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-
-
 public class TestBase{
 	
 	public static WebDriver driver;

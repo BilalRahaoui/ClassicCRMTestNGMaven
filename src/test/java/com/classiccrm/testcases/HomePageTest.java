@@ -37,15 +37,21 @@ public class HomePageTest extends TestBase {
 	//terminate test "to do after test"
 	@AfterMethod
 	public void drop(ITestResult result) throws Exception {
-		if(result.getStatus() == ITestResult.SUCCESS)
+		ReportingTools.takeSnapShot(result.getName());
+		if(result.getStatus() == ITestResult.SUCCESS) {
 			logger.log(LogStatus.PASS, "Test success!");
-		else if (result.getStatus() == ITestResult.SKIP)
+			logger.log(LogStatus.PASS, "<a href='" +result.getName() + ".png" +"'><span class='label info'>Download Snapshot</a>");
+		}
+		else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(LogStatus.SKIP, "Test skipped!");
-		else if (result.getStatus() == ITestResult.FAILURE)
-			logger.log(LogStatus.FAIL, "Test failed!");
+			logger.log(LogStatus.SKIP, "<a href='" +result.getName() + ".png" +"'><span class='label info'>Download Snapshot</a>");
+		}
+		else if (result.getStatus() == ITestResult.FAILURE) {
+			logger.log(LogStatus.FAIL, result.getThrowable());
+			logger.log(LogStatus.FAIL, "<a href='" +result.getName() + ".png" +"'><span class='label info'>View Snapshot</a>");
+		}
 		dropAll();
-
-	}
+		}
 
 	//Check if url is as descripted
 	@Test(priority = 1)

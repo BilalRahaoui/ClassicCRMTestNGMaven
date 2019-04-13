@@ -1,0 +1,19 @@
+# Created at 2019-04-13T22:36:00.161
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Java\Eclipse\WorkSpace\ClassicCRMTestMaven\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
+# Created at 2019-04-13T22:37:10.582
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2019-04-13T22:37:10.586
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/C:/Users/Bilal/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+
+# Created at 2019-04-13T22:37:10.590
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+
+# Created at 2019-04-13T22:37:10.594
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2019-04-13T22:37:10.598
+WARNING: All illegal access operations will be denied in a future release
+

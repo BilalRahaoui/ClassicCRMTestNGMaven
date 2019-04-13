@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 07 22:36:44 CEST 2019</td>
+<td>Started on:</td><td>Sat Apr 13 22:24:09 CEST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>47 seconds (47606 ms)</td>
+<tr><td>Total time:</td><td>99 seconds (99364 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,25 +75,162 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.classiccrm.testcases.LoginPageTest.accountLabelTest()'><b>accountLabelTest</b><br>Test class: com.classiccrm.testcases.LoginPageTest<br>Parameters: public void com.classiccrm.testcases.LoginPageTest.accountLabelTest(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>com.classiccrm.testcases.LoginPageTest@22a67b4</td></tr>
+<tr>
+<td title='com.classiccrm.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.classiccrm.testcases.LoginPageTest<br>Parameters: public void com.classiccrm.testcases.LoginPageTest.loginTest(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>com.classiccrm.testcases.LoginPageTest@22a67b4</td></tr>
+<tr>
 <td title='com.classiccrm.testcases.HomePageTest.logoTest()'><b>logoTest</b><br>Test class: com.classiccrm.testcases.HomePageTest<br>Parameters: public void com.classiccrm.testcases.HomePageTest.logoTest(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
 <td>0</td>
-<td>com.classiccrm.testcases.HomePageTest@551aa95a</td></tr>
+<td>com.classiccrm.testcases.HomePageTest@67205a84</td></tr>
 <tr>
 <td title='com.classiccrm.testcases.HomePageTest.pricingTest()'><b>pricingTest</b><br>Test class: com.classiccrm.testcases.HomePageTest<br>Parameters: public void com.classiccrm.testcases.HomePageTest.pricingTest(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>4</td>
-<td>com.classiccrm.testcases.HomePageTest@551aa95a</td></tr>
+<td>3</td>
+<td>com.classiccrm.testcases.HomePageTest@67205a84</td></tr>
 <tr>
 <td title='com.classiccrm.testcases.HomePageTest.titleTest()'><b>titleTest</b><br>Test class: com.classiccrm.testcases.HomePageTest<br>Parameters: public void com.classiccrm.testcases.HomePageTest.titleTest(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
 <td>0</td>
-<td>com.classiccrm.testcases.HomePageTest@551aa95a</td></tr>
+<td>com.classiccrm.testcases.HomePageTest@67205a84</td></tr>
 <tr>
 <td title='com.classiccrm.testcases.HomePageTest.urlTest()'><b>urlTest</b><br>Test class: com.classiccrm.testcases.HomePageTest<br>Parameters: public void com.classiccrm.testcases.HomePageTest.urlTest(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
 <td>0</td>
-<td>com.classiccrm.testcases.HomePageTest@551aa95a</td></tr>
+<td>com.classiccrm.testcases.HomePageTest@67205a84</td></tr>
+<tr>
+<td title='com.classiccrm.testcases.LoginPageTest.validLoginTest()'><b>validLoginTest</b><br>Test class: com.classiccrm.testcases.LoginPageTest<br>Parameters: public void com.classiccrm.testcases.LoginPageTest.validLoginTest(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>com.classiccrm.testcases.LoginPageTest@22a67b4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.classiccrm.testcases.ContactPageTest.addNewContactTest()'><b>addNewContactTest</b><br>Test class: com.classiccrm.testcases.ContactPageTest</td>
+<td><div><pre>java.lang.RuntimeException: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+Caused by: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:41)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:178)
+	at com.classiccrm.testdata.Data.contactData(Data.java:35)
+	at com.classiccrm.testcases.ContactPageTest.addContactData(ContactPageTest.java:70)
+	... 20 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:630)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:229)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:39)
+	... 29 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1634338531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1634338531'><pre>java.lang.RuntimeException: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:41)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:178)
+	at com.classiccrm.testdata.Data.contactData(Data.java:35)
+	at com.classiccrm.testcases.ContactPageTest.addContactData(ContactPageTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:630)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:229)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:39)
+	... 29 more
+</pre></div></td>
+<td>0</td>
+<td>com.classiccrm.testcases.ContactPageTest@6c49835d</td></tr>
+<tr>
+<td title='com.classiccrm.testcases.LoginPageTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.classiccrm.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.RuntimeException: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+Caused by: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:41)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:178)
+	at com.classiccrm.testdata.Data.invalidLoginTestData(Data.java:17)
+	at com.classiccrm.testcases.LoginPageTest.invalidLogin(LoginPageTest.java:89)
+	... 20 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:630)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:229)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:39)
+	... 29 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1110014943", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1110014943'><pre>java.lang.RuntimeException: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.POIXMLException: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:41)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:178)
+	at com.classiccrm.testdata.Data.invalidLoginTestData(Data.java:17)
+	at com.classiccrm.testcases.LoginPageTest.invalidLogin(LoginPageTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidFormatException: OPC Compliance error [M4.1]: there is more than one core properties relationship in the package !
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:630)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:229)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:39)
+	... 29 more
+</pre></div></td>
+<td>0</td>
+<td>com.classiccrm.testcases.LoginPageTest@22a67b4</td></tr>
 </table><p>
 </body>
 </html>
