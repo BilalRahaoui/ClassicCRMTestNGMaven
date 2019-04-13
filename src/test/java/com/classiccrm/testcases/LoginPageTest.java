@@ -44,13 +44,17 @@ public class LoginPageTest extends TestBase{
 	@AfterMethod
 	public void drop(ITestResult result) throws Exception {
 		ReportingTools.takeSnapShot(result.getName());
-		if(result.getStatus() == ITestResult.SUCCESS)
+		if(result.getStatus() == ITestResult.SUCCESS) {
 			logger.log(LogStatus.PASS, "Test success!");
-		else if (result.getStatus() == ITestResult.SKIP)
+			logger.log(LogStatus.PASS, "<a href='" +result.getName() + ".png" +"'><span class='label info'>Download Snapshot</a>");
+		}
+		else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(LogStatus.SKIP, "Test skipped!");
+			logger.log(LogStatus.SKIP, "<a href='" +result.getName() + ".png" +"'><span class='label info'>Download Snapshot</a>");
+		}
 		else if (result.getStatus() == ITestResult.FAILURE) {
 			logger.log(LogStatus.FAIL, result.getThrowable());
-			logger.log(LogStatus.FAIL, "<a href='" +result.getName() + ".png" +"'><span class='label info'>Download Snapshot</a>");
+			logger.log(LogStatus.FAIL, "<a href='" +result.getName() + ".png" +"'><span class='label info'>View Snapshot</a>");
 		}
 		dropAll();
 	}
